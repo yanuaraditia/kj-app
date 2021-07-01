@@ -1,0 +1,139 @@
+$font-family-sans-serif: "Inter", --apple-system, sans-serif;
+$font-family-brand: "Quicksand", --apple-system, sans-serif;
+$border-radius: .75rem;
+$input-border-radius: $border-radius;
+$dark: #250048;
+$body-color: #000;
+$primary: #6f2fab;
+.font-weight-medium {
+  font-weight: 500;
+}
+.qsand {
+  font-family: $font-family-brand;
+  font-weight: 700;
+}
+.fullrad {
+  border-radius: 1000px!important;
+}
+.radx {
+  border-radius: $border-radius;
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid rgba(0,0,0,.15);
+  a {
+    display: block;
+    padding: .5rem 0;
+    font-size: .75rem;
+    color: inherit;
+    &:hover {
+      text-decoration: none;
+    }
+    span {
+      display: block;
+    }
+    &.nuxt-link-exact-active {
+      color: $primary!important;
+      font-weight: 500;
+      img {
+        box-shadow: 0 0 0 2px $primary;
+      }
+    }
+  }
+}
+.my-container {
+  position: relative;
+  min-height: 100vh;
+}
+.mx-40vw {
+  @media screen and (min-width: 1024px) {
+    max-width: 30vw!important;
+  }
+}
+.kirimin-x {
+  display: block;
+  border: 1px solid #ced4da;
+  text-align: center;
+  border-radius: $border-radius;
+  padding: 1rem;
+  color: $body-color;
+  img {
+    width: 50px;
+  }
+  span {
+    display: block;
+  }
+  width: 100px;
+  height: 100px;
+  margin-right: .75rem;
+  font-size: .75rem;
+  &:hover {
+    text-decoration: none!important;
+    box-shadow: 0 0 0 2px inset $primary;
+    border-color: $primary;
+    color: $primary;
+    font-weight: 500;
+  }
+}
+.front-header {
+  position: relative;
+  padding-bottom: 2.5rem;
+  overflow: hidden;
+  &::after {
+    content: "";
+    background: #fff;
+    border-radius: $border-radius $border-radius 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 1rem;
+  }
+}
+.track {
+  position: relative;
+  .form-control {
+    padding-left: 35px;
+  }
+  label {
+    position: absolute;
+    display: flex;
+    top: calc(50% - 10px);
+    left: 10px;
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.scroll-x {
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+}
+
+.scroll-x a {
+  display: inline-block;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.introduction .scroll-x {
+  a {
+    img {
+      width: 150px;
+    }
+  }
+}
+.freaker {
+  svg {
+    transform: translateY(-2px);
+    margin-right: .5rem;
+  }
+}
+@import 'node_modules/bootstrap/scss/bootstrap';
