@@ -9,7 +9,7 @@
       <div class="container">
         <div class="text-center">
           <div class="images mb-3">
-            <img src="https://kiriminaja.com/storage/Users/Juni2021/985_29_02-50-19.jpg" width="30%" alt="" class="fullrad mb-2">
+            <img src="https://kiriminaja.com/storage/Users/Juni2021/985_29_02-50-19.jpg" width="30%" alt="" class="fullrad elevated mb-2">
             <h4 class="qsand mb-1 text-primary">John Doe</h4>
             <span class="text-muted">johndoe@kiriminaja.com</span>
           </div>

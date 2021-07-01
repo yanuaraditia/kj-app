@@ -176,7 +176,15 @@ $primary: #6f2fab;
     &:hover {
       color: $primary;
       text-decoration: none;
+      .icon {
+        background: $primary;
+        color: #fff;
+        box-shadow: 0 3px 4px 0 rgba(10,8,59,.1);
+      }
     }
   }
+}
+.elevated {
+  box-shadow: 0 3px 4px 0 rgba(10,8,59,.1);
 }
 @import 'node_modules/bootstrap/scss/bootstrap';
