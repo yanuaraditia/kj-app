@@ -2,7 +2,11 @@ $font-family-sans-serif: "Inter", --apple-system, sans-serif;
 $font-family-brand: "Quicksand", --apple-system, sans-serif;
 $border-radius: .75rem;
 $input-border-radius: $border-radius;
+$input-bg: #f1f1f1;
+$input-height: auto;
+$input-padding-y: .5rem;
 $dark: #250048;
+$light: #eae0f2;
 $body-color: #000;
 $primary: #6f2fab;
 .font-weight-medium {
@@ -86,12 +90,12 @@ $primary: #6f2fab;
   &::after {
     content: "";
     background: #fff;
-    border-radius: $border-radius $border-radius 0 0;
+    border-radius: 50px;
     position: absolute;
-    bottom: 0;
+    bottom: -1.85rem;
     right: 0;
     left: 0;
-    height: 1rem;
+    height: 3rem;
   }
 }
 .track {
@@ -141,16 +145,25 @@ $primary: #6f2fab;
   padding: 0;
   margin: 0;
   li:not(:last-child) {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dfdfdf;
   }
   a {
     color: $body-color;
     display: block;
-    padding: 1rem .75rem 1rem 3rem;
+    padding: 1rem .75rem 1rem 4rem;
     position: relative;
-    svg {
+    .icon {
+      display: flex;
+      background: rgba($color: $primary, $alpha: .15);
+      padding: 8px;
+      border-radius: 1000px;
       position: absolute;
-      left: .7rem;
+      left: .75rem;
+      color: $primary;
+      svg {
+        width: 20px;
+        height: 20px;
+      }
     }
     &:hover {
       color: $primary;

@@ -1,11 +1,9 @@
 <template>
   <div>
-    <div class="page-header bg-dark text-white p-3">
+    <nav class="page-header text-primary bg-light p-3">
       <div class="container">
-        <h5 class="m-0 qsand">
-          <span>Buat Paket</span>
-        </h5>
+        <h5 class="m-0 qsand">Buat Paket</h5>
       </div>
-    </div>
+    </nav>
   </div>
 </template>

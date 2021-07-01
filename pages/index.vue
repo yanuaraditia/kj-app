@@ -9,6 +9,11 @@
         </div>
       </div>
     </nav>
+    <section class="news p-2">
+      <div class="container">
+        <img src="https://kiriminaja.com/assets/kurir_sicepat.jpg" class="img-fluid radx" alt="">
+      </div>
+    </section>
     <section class="cekresi-section py-3 px-2">
       <div class="container">
         <form action="" class="track">
@@ -45,19 +50,6 @@
             <span>Pickup</span>
           </a>
         </div>
-      </div>
-    </section>
-    <section class="news p-2">
-      <div class="container">
-        <div class="row mb-2">
-          <div class="col-6">
-            <span class="font-weight-medium qsand">Kabar Untukmu</span>
-          </div>
-          <div class="col-6 text-right">
-            <a href="">Semua</a>
-          </div>
-        </div>
-        <img src="https://kiriminaja.com/assets/kurir_sicepat.jpg" class="img-fluid radx" alt="">
       </div>
     </section>
     <section class="introduction p-2">
