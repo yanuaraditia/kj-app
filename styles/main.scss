@@ -136,4 +136,26 @@ $primary: #6f2fab;
     margin-right: .5rem;
   }
 }
+.account-option {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+  a {
+    color: $body-color;
+    display: block;
+    padding: 1rem .75rem 1rem 3rem;
+    position: relative;
+    svg {
+      position: absolute;
+      left: .7rem;
+    }
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+}
 @import 'node_modules/bootstrap/scss/bootstrap';
