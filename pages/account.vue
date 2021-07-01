@@ -13,7 +13,7 @@
             <h4 class="qsand mb-1 text-primary">John Doe</h4>
             <span class="text-muted">johndoe@kiriminaja.com</span>
           </div>
-          <a href="#" class="btn btn-outline-dark fullrad px-3">Ubah detail</a>
+          <a href="#" class="btn btn-primary fullrad px-3">Ubah Detail</a>
         </div>
       </div>
     </section>
