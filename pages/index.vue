@@ -24,18 +24,18 @@
     <section class="main-button py-2 pl-2">
       <div class="container pr-0">
         <div class="scroll-x">
-          <a href="" class="kirimin-x">
+          <nuxt-link to="kirimin" class="kirimin-x">
             <img src="https://dashboard.kiriminaja.com/assets/icon/pickup.png" alt="">
             <span>Kirimin</span>
-          </a>
-          <a href="" class="kirimin-x">
+          </nuxt-link>
+          <nuxt-link to="package" class="kirimin-x">
             <img src="https://dashboard.kiriminaja.com/assets/icon/history.png" alt="">
             <span>Paketmu</span>
-          </a>
-          <a href="" class="kirimin-x">
+          </nuxt-link>
+          <nuxt-link to="cekaja" class="kirimin-x">
             <img src="https://dashboard.kiriminaja.com/assets/icon/box.png" alt="">
             <span>CekAja</span>
-          </a>
+          </nuxt-link>
           <a href="" class="kirimin-x">
             <img src="https://dashboard.kiriminaja.com/assets/icon/catalogue.png" alt="">
             <span>Katalog</span>
