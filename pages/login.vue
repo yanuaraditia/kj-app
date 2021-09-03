@@ -3,7 +3,7 @@
     <nav class="page-header py-3">
       <div class="container">
         <img src="https://kiriminaja.com/assets/atrust/svg-logo-primary.svg" height="40px" alt="">
-        <h3 class="my-3 qsand">Masuk ke KiriminAja</h3>
+        <h3 class="mb-3 mt-5 qsand">Masuk ke KiriminAja</h3>
         <button class="btn btn-info font-weight-normal p-2" style="border-radius: .35rem">
           <span class="bg-white p-1 d-inline-flex" style="border-radius: .35rem">
             <img src="~/assets/img.png" width="24px" height="24px" alt="">
