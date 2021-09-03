@@ -1,23 +1,30 @@
 <template>
   <div>
-    <nav class="page-header text-primary bg-light p-3">
+    <nav class="page-header py-3">
       <div class="container">
-        <h5 class="m-0 qsand">Akun</h5>
+        <h3 class="m-0 qsand">Akun</h3>
       </div>
     </nav>
-    <section class="my-account-card my-5">
+    <section class="my-account-card mt-3">
       <div class="container">
-        <div class="text-center">
-          <div class="images mb-3">
-            <img src="https://kiriminaja.com/storage/Users/Juni2021/985_29_02-50-19.jpg" width="30%" alt="" class="fullrad elevated mb-2">
-            <h4 class="qsand mb-1 text-primary">John Doe</h4>
-            <span class="text-muted">johndoe@kiriminaja.com</span>
+        <div class="card card-body elevated">
+          <div class="row no-gutters">
+            <div class="col-auto">
+              <img src="https://kiriminaja.com/storage/Users/Juni2021/985_29_02-50-19.jpg" width="50px" height="50px" alt="" class="fullrad elevated mb-2">
+            </div>
+            <div class="col pl-3">
+              <h5 class="qsand mb-1 text-primary">John Doe</h5>
+              <span class="text-muted">johndoe@kiriminaja.com</span>
+            </div>
           </div>
-          <a href="#" class="btn btn-primary fullrad px-3">Ubah Detail</a>
+          <div style="background: #dcedc8; border-radius: 50px; font-size: .85rem; color: #33691e" class="p-2 mt-2 font-weight-bold">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Akun Terverifikasi
+          </div>
         </div>
       </div>
     </section>
-    <section class="account-options">
+    <section class="account-options mt-3">
       <div class="container">
         <ul class="account-option">
           <li>

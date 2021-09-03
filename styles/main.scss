@@ -1,5 +1,5 @@
-$font-family-sans-serif: "Inter", --apple-system, sans-serif;
-$font-family-brand: "Quicksand", --apple-system, sans-serif;
+$font-family-sans-serif: "Roboto", --apple-system, sans-serif;
+$font-family-brand: "Roboto", --apple-system, sans-serif;
 $border-radius: .75rem;
 $input-border-radius: $border-radius;
 $input-bg: #f1f1f1;
@@ -90,18 +90,7 @@ $primary: #6f2fab;
 }
 .front-header {
   position: relative;
-  padding-bottom: 2.5rem;
   overflow: hidden;
-  &::after {
-    content: "";
-    background: #fff;
-    border-radius: 50px;
-    position: absolute;
-    bottom: -1.85rem;
-    right: 0;
-    left: 0;
-    height: 3rem;
-  }
 }
 .track {
   position: relative;
@@ -150,39 +139,46 @@ $primary: #6f2fab;
   padding: 0;
   margin: 0;
   li:not(:last-child) {
-    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+    &::after {
+      position: absolute;
+      left: 4rem;
+      background: #dfdfdf;
+      height: 1px;
+      right: 0;
+      bottom: 0;
+      content: "";
+    }
   }
   a {
     color: $body-color;
     display: block;
     padding: 1rem .75rem 1rem 4rem;
     position: relative;
+    text-decoration: none!important;
+    border-radius: 1rem;
+    overflow: hidden;
     .icon {
       display: flex;
-      background: rgba($color: $primary, $alpha: .15);
-      padding: 8px;
       border-radius: 1000px;
       position: absolute;
       left: .75rem;
-      color: $primary;
+      color: $dark;
       svg {
-        width: 20px;
-        height: 20px;
+        width: 28px;
+        height: 28px;
       }
+    }
+    &:hover {
+      background: rgba($color: $primary,$alpha: .05);
     }
     span:not(.icon) {
       font-size: .75rem;
     }
-    &:hover {
-      color: $primary;
-      text-decoration: none;
-      .icon {
-        background: $primary;
-        color: #fff;
-        box-shadow: 0 3px 4px 0 rgba(10,8,59,.1);
-      }
-    }
   }
+}
+.page-header {
+  margin: .75rem 0;
 }
 .elevated {
   box-shadow: 0 3px 4px 0 rgba(10,8,59,.1);
