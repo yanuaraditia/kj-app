@@ -6,19 +6,28 @@
         <h3 class="mb-3 mt-5 qsand">Gabung ke KiriminAja</h3>
         <form action="">
           <div class="form-group">
-            <label for="email" class="font-weight-medium">E-mail</label>
-            <input type="text" name="email" id="email" placeholder="saya@email.com" class="form-control">
+            <label for="name" class="font-weight-medium required">Nama Lengkap</label>
+            <input type="text" name="email" id="name" placeholder="Contoh: Fariz" class="form-control">
           </div>
           <div class="form-group">
-            <div class="row">
-              <div class="col">
-                <label for="password" class="font-weight-medium">Password</label>
-              </div>
-              <div class="col text-right">
-                <a href="#">Lupa password?</a>
-              </div>
-            </div>
+            <label for="email" class="font-weight-medium required">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="saya@email.com" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="phone" class="font-weight-medium required">Nomor Telepon / WA</label>
+            <input type="tel" name="email" id="phone" placeholder="08xxxxxx" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="password" class="font-weight-medium required">Password</label>
             <input type="password" name="password" id="password" placeholder="Kata sandi anda" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="password-confirmation" class="font-weight-medium required">Konfirmasi Password</label>
+            <input type="password" name="password" id="password-confirmation" placeholder="Kata sandi anda" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="referal" class="font-weight-medium">Kode Referal (Jika ada)</label>
+            <input type="text" name="email" id="referal" placeholder="Nomor referal" class="form-control">
           </div>
           <button class="btn btn-primary btn-block">Daftar</button>
           <button class="btn btn-info btn-block mt-2">
