@@ -60,6 +60,48 @@
         </div>
       </div>
     </section>
+    <div style="height: 10px; background: #f1f1f1" class="my-4"></div>
+    <section class="ticket-section">
+      <div class="container">
+        <div class="row no-gutters mb-3">
+          <div class="col">
+            <strong>Ticket Support</strong>
+          </div>
+          <div class="col-auto">
+            <nuxt-link to="ticket" style="font-size: .85rem">Lihat Semua</nuxt-link>
+          </div>
+        </div>
+        <nuxt-link to="ticket-view" class="card text-dark text-decoration-none elevated plist mb-3" v-for="index in 3" :key="index">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <h5 class="font-weight-bold m-0">SRT000001</h5>
+                <span style="font-size: .85rem" class="text-muted">02 September 2021 14:32</span>
+              </div>
+              <div class="col-auto text-right">
+                <span class="badge badge-danger px-2 py-1 font-weight-normal" style="border-radius: .25rem">Ditutup</span>
+              </div>
+            </div>
+            <div class="mt-1">Sek ndes kapan iki dadi</div>
+          </div>
+        </nuxt-link>
+      </div>
+    </section>
+    <div style="height: 10px; background: #f1f1f1" class="my-4"></div>
+    <section class="content-section">
+      <div class="container">
+        <div class="row no-gutters mb-3">
+          <div class="col">
+            <strong>Kabar baik buatmu</strong>
+          </div>
+          <div class="col-auto">
+            <nuxt-link to="content" style="font-size: .85rem">Lihat Semua</nuxt-link>
+          </div>
+        </div>
+        <img src="https://www.ovo.id/ovo_front_res/img/news/article-cinemaxx.jpg" class="img-fluid" alt="" style="border-radius: .35rem">
+      </div>
+    </section>
+    <div style="height: 10px; background: #f1f1f1" class="my-4"></div>
   </div>
 </template>
 <style scoped lang="scss">
@@ -97,4 +139,18 @@
     top: calc(50% - 17px);
   }
 }
+.plist {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    bottom: 1rem;
+    width: 8px;
+    border-radius: 0 1rem 1rem 0;
+    background: var(--danger);
+  }
+}
+
 </style>
