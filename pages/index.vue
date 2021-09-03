@@ -1,20 +1,22 @@
 <template>
   <div>
-    <nav class="front-header bg-dark text-white px-2 pb-3">
+    <nav class="front-header bg-dark text-white px-2 pb-1">
       <div class="page-header">
         <div class="container py-3">
           <img src="https://tdev.kiriminaja.com/assets/atrust/svg-logo.svg" class="mb-4" height="40px" alt="">
           <div class="row">
             <div class="col">
-              <div class="row no-gutters">
-                <div class="col-auto d-flex align-items-center">
-                  <img src="https://kiriminaja.com/storage/Users/Juni2021/985_29_02-50-19.jpg" style="border: 3px solid #fff; border-radius: 40px" width="50px" height="50px" alt="">
+              <nuxt-link class="text-decoration-none text-white" to="account">
+                <div class="row no-gutters">
+                  <div class="col-auto d-flex align-items-center">
+                    <img src="https://kiriminaja.com/storage/Users/Juni2021/985_29_02-50-19.jpg" style="border: 3px solid #fff; border-radius: 40px" width="50px" height="50px" alt="">
+                  </div>
+                  <div class="col pl-3">
+                    <h5 class="font-weight-bold">Fariz Gustanjung</h5>
+                    <span>082243374043</span>
+                  </div>
                 </div>
-                <div class="col pl-3">
-                  <h5 class="font-weight-bold">Fariz Gustanjung</h5>
-                  <span>082243374043</span>
-                </div>
-              </div>
+              </nuxt-link>
             </div>
             <div class="col-auto"></div>
           </div>
