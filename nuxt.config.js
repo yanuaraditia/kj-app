@@ -6,12 +6,29 @@ export default {
   head: {
     titleTemplate: '%s - KiriminAja',
     meta: [
-      { charset: 'utf-8' },
-      {name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      },
+      {
+        name: 'theme-color',
+        content: '#250048'
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.png'
+      },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap'
