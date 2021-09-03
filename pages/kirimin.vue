@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nav class="page-header text-primary bg-light p-3">
+    <nav class="page-header py-3">
       <div class="container">
-        <h5 class="m-0 qsand">Buat Paket</h5>
+        <h3 class="m-0 qsand">Buat Paket</h3>
       </div>
     </nav>
   </div>

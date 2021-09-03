@@ -42,10 +42,10 @@
           <div class="card-body" style="border-top: 1px solid rgba(0,0,0,.09)">
             <div class="row">
               <div class="col-4">
-                <a href="" class="text-center link-fluid">
+                <nuxt-link to="kirimin" class="text-center link-fluid">
                   <img class="img-fluid" src="~/assets/delivery-truck.png" alt="Paketku">
                   <span>Kirimin</span>
-                </a>
+                </nuxt-link>
               </div>
               <div class="col-4">
                 <nuxt-link to="package" class="text-center link-fluid">
@@ -54,10 +54,10 @@
                 </nuxt-link>
               </div>
               <div class="col-4">
-                <a href="" class="text-center link-fluid">
+                <nuxt-link to="cekaja" class="text-center link-fluid">
                   <img class="img-fluid" src="~/assets/package.png" alt="Paketku">
                   <span>CekAja</span>
-                </a>
+                </nuxt-link>
               </div>
             </div>
           </div>
