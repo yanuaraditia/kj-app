@@ -35,12 +35,12 @@
         </div>
         <div class="sender-name mt-3" style="padding-left: 4rem">
           <span style="font-size: .75rem">Lokasi Pengirim</span>
-          <h5>Yanuar Aditia</h5>
+          <h5 style="font-size: 1.15rem">Yanuar Aditia</h5>
           <p class="text-muted" style="font-size: .85rem">Jl. Alpokat No.45F Perumnas Condong Catur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta</p>
         </div>
         <div class="receiver-name" style="padding-left: 4rem">
           <span style="font-size: .75rem">Tujuan Pengantaran</span>
-          <h5>Yanuar Aditia</h5>
+          <h5 style="font-size: 1.15rem">Yanuar Aditia</h5>
           <p class="text-muted" style="font-size: .85rem">Jl. Alpokat No.45F Perumnas Condong Catur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta</p>
         </div>
       </div>
