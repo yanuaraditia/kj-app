@@ -7,26 +7,28 @@
     </nav>
     <section class="package-list">
       <div class="container">
-        <div class="card elevated plist">
+        <nuxt-link to="package-view" class="card text-dark text-decoration-none elevated plist mb-3" v-for="index in 10" :key="index">
           <div class="card-body">
             <div class="row">
               <div class="col">
                 <span style="font-size: .85rem" class="text-muted">02 September 2021 14:32</span>
-                <h5 class="m-0 font-weight-bold">Ilham Test</h5>
+                <h5 class="my-1 font-weight-bold">Ilham Test</h5>
                 <span>OID-KIRIMINAJA</span>
               </div>
               <div class="col-auto text-right">
                 <div>
+                  <span class="badge text-primary px-2 py-1" style="border-radius: .25rem; background: #f1f1f1">COD</span>
+                </div>
+                <div>
                   <img src="https://kiriminaja.com/assets/logistics/sicepat.png" width="80px" alt="">
                 </div>
                 <div>
-                  <span class="badge text-primary px-2 py-1" style="border-radius: .25rem; background: #f1f1f1">COD</span>
                   <span>1420233020900</span>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </nuxt-link>
       </div>
     </section>
   </div>

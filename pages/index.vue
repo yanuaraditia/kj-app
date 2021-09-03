@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="front-header bg-dark text-white px-2">
+    <nav class="front-header bg-dark text-white px-2 pb-3">
       <div class="container py-3">
         <img src="https://tdev.kiriminaja.com/assets/atrust/svg-logo.svg" class="mb-4" height="40px" alt="">
         <div class="row">
@@ -21,11 +21,18 @@
     </nav>
     <section class="balance-section">
       <div class="container">
+        <nuxt-link to="verification" class="card text-decoration-none text-dark elevated border-0 mb-3" style="background: #ffe082">
+          <div class="card-body verify-octagon" style="padding-left: 4rem">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-octagon"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            <h6>Akun anda belum diverifikasi</h6>
+            <span style="font-size: .85rem">Silahkan lakukan verifikasi dengan klik disini</span>
+          </div>
+        </nuxt-link>
         <div class="card border-0 elevated">
           <div class="card-body py-3">
             <nuxt-link to="saldo" class="text-dark text-decoration-none">
               <h6>Saldo</h6>
-              <h4 class="font-weight-bold"><sup>Rp.</sup> 500.000</h4>
+              <h4 class="font-weight-bold m-0"><sup>Rp.</sup> 500.000</h4>
             </nuxt-link>
           </div>
           <div class="card-body" style="border-top: 1px solid rgba(0,0,0,.09)">
@@ -78,6 +85,16 @@
   }
   span {
     display: block;
+  }
+}
+.verify-octagon {
+  position: relative;
+  svg {
+    position: absolute;
+    left: 1rem;
+    width: 34px;
+    height: 34px;
+    top: calc(50% - 17px);
   }
 }
 </style>

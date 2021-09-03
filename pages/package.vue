@@ -7,7 +7,7 @@
     </nav>
     <section class="filter-data">
       <div class="container">
-        <nuxt-link to="package-list" class="text-decoration-none mb-2 d-block">
+        <nuxt-link to="package-list" class="text-decoration-none mb-3 d-block">
           <div class="card card-body border-0 text-white" style="background: #0069c0">
             <h4>Belum Dipickup</h4>
             <div class="text-right">
@@ -15,7 +15,7 @@
             </div>
           </div>
         </nuxt-link>
-        <nuxt-link to="package-list" class="text-decoration-none mb-2 d-block">
+        <nuxt-link to="package-list" class="text-decoration-none mb-3 d-block">
           <div class="card card-body border-0 text-white" style="background: #5c6bc0">
             <h4>Dalam Pengiriman</h4>
             <div class="text-right">
@@ -23,7 +23,7 @@
             </div>
           </div>
         </nuxt-link>
-        <nuxt-link to="package-list" class="text-decoration-none mb-2 d-block">
+        <nuxt-link to="package-list" class="text-decoration-none mb-3 d-block">
           <div class="card card-body border-0 text-white" style="background: #087f23">
             <h4>Sampai Tujuan</h4>
             <div class="text-right">
@@ -31,7 +31,7 @@
             </div>
           </div>
         </nuxt-link>
-        <nuxt-link to="package-list" class="text-decoration-none mb-2 d-block">
+        <nuxt-link to="package-list" class="text-decoration-none mb-3 d-block">
           <div class="card card-body border-0 text-white" style="background: #ba000d">
             <h4>Return</h4>
             <div class="text-right">
