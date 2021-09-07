@@ -1,4 +1,4 @@
-$font-family-sans-serif: "Noto Sans JP", --apple-system, sans-serif;
+$font-family-sans-serif: "Open Sans", --apple-system, sans-serif;
 $border-radius: .5rem;
 $input-border-radius: $border-radius;
 $input-bg: #f1f1f1;
@@ -200,10 +200,10 @@ $primary: #6f2fab;
   background: $primary;
   color: #fff;
   padding: .75rem;
-  transform: translateY(-20px);
+  transform: translateY(-10px);
   svg {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
   border-radius: 1000px;
 }

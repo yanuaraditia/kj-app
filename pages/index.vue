@@ -79,8 +79,7 @@
         </div>
       </div>
     </section>
-    <div style="height: 10px; background: #f1f1f1" class="my-4"></div>
-    <section class="ticket-section">
+    <section class="ticket-section mt-3">
       <div class="container">
         <div class="row no-gutters mb-3">
           <div class="col">
@@ -94,14 +93,14 @@
           <div class="card-body py-3">
             <div class="row">
               <div class="col">
-                <h5 class="font-weight-bold m-0">SRT000001</h5>
+                <h6 class="font-weight-bold m-0">SRT000001</h6>
                 <span style="font-size: .85rem" class="text-muted">02 September 2021 14:32</span>
               </div>
               <div class="col-auto text-right">
                 <span class="badge badge-danger px-2 py-1 font-weight-normal" style="border-radius: .25rem">Ditutup</span>
               </div>
             </div>
-            <div class="mt-1">Sek ndes kapan iki dadi</div>
+            <div class="mt-1" style="font-size: .85rem">Sek ndes kapan iki dadi</div>
           </div>
         </nuxt-link>
       </div>
@@ -175,26 +174,11 @@
     content: "";
     position: absolute;
     left: 0;
-    top: 1rem;
-    bottom: 1rem;
-    width: 8px;
+    top: .75rem;
+    bottom: .75rem;
+    width: 4px;
     border-radius: 0 1rem 1rem 0;
     background: var(--danger);
-  }
-}
-
-.front-header {
-  position: relative;
-  &::before {
-    content: "";
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border: 50px solid var(--primary);
-    border-radius: 1000px;
-    top: -50%;
-    left: -100px;
-    opacity: .5;
   }
 }
 </style>
