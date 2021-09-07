@@ -91,7 +91,7 @@
           </div>
         </div>
         <nuxt-link to="ticket-view" class="card text-dark text-decoration-none elevated plist mb-3" v-for="index in 3" :key="index">
-          <div class="card-body">
+          <div class="card-body py-3">
             <div class="row">
               <div class="col">
                 <h5 class="font-weight-bold m-0">SRT000001</h5>
