@@ -12,13 +12,11 @@
             <div class="row">
               <div class="col">
                 <span style="font-size: .85rem" class="text-muted">02 September 2021 14:32</span>
-                <h5 class="my-1 font-weight-bold">Ilham Test</h5>
-                <span>OID-KIRIMINAJA</span>
+                <h6 class="my-1 font-weight-bold">Ilham Test</h6>
+                <span class="badge badge-light px-2 py-1" style="border-radius: .25rem">COD</span>
+                <span style="font-size: .85rem">OID-KIRIMINAJA</span>
               </div>
               <div class="col-auto text-right">
-                <div>
-                  <span class="badge text-primary px-2 py-1" style="border-radius: .25rem; background: #f1f1f1">COD</span>
-                </div>
                 <div>
                   <img src="https://kiriminaja.com/assets/logistics/sicepat.png" width="80px" alt="">
                 </div>
@@ -42,7 +40,7 @@
     left: 0;
     top: 1rem;
     bottom: 1rem;
-    width: 8px;
+    width: 4px;
     border-radius: 0 1rem 1rem 0;
     background: var(--success);
   }
