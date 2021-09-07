@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="front-header bg-dark text-white px-2 pb-1">
-      <div class="page-header">
+      <div class="page-header" style="position: relative">
         <div class="container py-3">
           <img src="https://tdev.kiriminaja.com/assets/atrust/svg-logo.svg" class="mb-4" height="40px" alt="">
           <div class="row">
@@ -183,4 +183,18 @@
   }
 }
 
+.front-header {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 50px solid var(--primary);
+    border-radius: 1000px;
+    top: -50%;
+    left: -100px;
+    opacity: .5;
+  }
+}
 </style>
