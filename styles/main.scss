@@ -38,7 +38,7 @@ $primary: #6f2fab;
   left: 0;
   right: 0;
   background: #fff;
-  a {
+  a:not(.super-link) {
     display: block;
     padding: .85rem 0;
     font-size: .75rem;
@@ -193,5 +193,18 @@ $primary: #6f2fab;
     color: #f00;
     margin-left: 2px;
   }
+}
+.super-link {
+  display: inline-flex;
+  margin: 0 auto;
+  background: $primary;
+  color: #fff;
+  padding: .75rem;
+  transform: translateY(-20px);
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+  border-radius: 1000px;
 }
 @import 'node_modules/bootstrap/scss/bootstrap';
