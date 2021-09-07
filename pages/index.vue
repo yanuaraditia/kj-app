@@ -36,7 +36,7 @@
           <div class="card-body py-3">
             <nuxt-link to="saldo" class="text-dark text-decoration-none">
               <h6>Saldo</h6>
-              <h4 class="font-weight-bold m-0"><sup>Rp.</sup> 500.000</h4>
+              <h4 class="font-weight-bold m-0">Rp. 500.000 / <span style="font-size: .85rem">Estimasi Rp. 30.000.000</span></h4>
             </nuxt-link>
           </div>
           <div class="card-body" style="border-top: 1px solid rgba(0,0,0,.09)">

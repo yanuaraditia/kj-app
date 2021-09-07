@@ -1,5 +1,4 @@
-$font-family-sans-serif: "Roboto", --apple-system, sans-serif;
-$font-family-brand: "Roboto", --apple-system, sans-serif;
+$font-family-sans-serif: "Work Sans", --apple-system, sans-serif;
 $border-radius: .5rem;
 $input-border-radius: $border-radius;
 $input-bg: #f1f1f1;
@@ -17,11 +16,14 @@ $light: #eae0f2;
 $info: #0069c0;
 $body-color: #000;
 $primary: #6f2fab;
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .font-weight-medium {
   font-weight: 500;
 }
 .qsand {
-  font-family: $font-family-brand;
   font-weight: 700;
 }
 .fullrad {
@@ -89,9 +91,6 @@ $primary: #6f2fab;
     color: $primary;
     font-weight: 500;
   }
-}
-.btn {
-  font-family: $font-family-brand!important;
 }
 .front-header {
   position: relative;
